@@ -11,3 +11,6 @@
 # Custom
 *.idea/
 *.iml
+/jpa-buddy.xml
+/misc.xml
+/modules.xml

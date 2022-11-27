@@ -1,4 +1,13 @@
 public class Bag {
+
+    public Bag(long amount) {
+        this(null, amount);
+    }
+
+    public Bag(Invitation invitation, long amount) {
+        this.invitation = invitation;
+        this.amount = amount;
+    }
     private Long amount;
     private Invitation invitation;
     private Ticket ticket;

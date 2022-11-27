@@ -9,5 +9,5 @@
 
 
 # Custom
-.idea/
-Object.iml
+*.idea
+*.iml
